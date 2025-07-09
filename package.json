@@ -1,0 +1,21 @@
+{
+  "type": "module",
+  "packageManager": "yarn@4.9.2",
+  "_alias": {
+    "@mui/core": "@mui/core/esm",
+    "@mui/system": "@mui/system/esm"
+  },
+  "dependencies": {
+    "@emotion/react": "11.14.0",
+    "@emotion/styled": "11.14.1",
+    "@mui/material": "7.2.0",
+    "react": "19.1.0",
+    "react-dom": "19.1.0"
+  },
+  "devDependencies": {
+    "@tsconfig/strictest": "2.0.5",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "parcel": "2.15.4"
+  }
+}

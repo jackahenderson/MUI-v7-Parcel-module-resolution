@@ -1,0 +1,23 @@
+{
+	"extends": "./tsconfig.base.json",
+	"compilerOptions": {
+		"lib": [ "ES2022", "DOM" ],
+		"module": "ESNext",
+		"moduleResolution": "bundler",
+		"target": "ES2022",
+		
+		"jsx": "react-jsx",
+		"jsxImportSource": "react",
+		
+		"noEmit": true,
+		"incremental": true,
+		"tsBuildInfoFile": "./dist/tsconfig.tsbuildinfo",
+		"isolatedModules": true,
+
+		"exactOptionalPropertyTypes": false,
+	},
+	"include": [
+		"./src/**/*.ts",
+		"./src/**/*.tsx", "main.tsx",
+	]
+}

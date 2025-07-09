@@ -1,0 +1,11 @@
+{
+	"extends": "@tsconfig/strictest",
+	"compilerOptions": {
+		"noUnusedLocals": false,
+		"noUnusedParameters": false,
+		"verbatimModuleSyntax": false,
+		"skipLibCheck": true,
+		
+		"incremental": true
+	}
+}
